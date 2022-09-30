@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Task 2.7</title>
+    <style>
+
+        .static {
+            background-color: blueviolet;
+            position: static;
+            width: 150px;
+            height: 90px;
+        }
+
+        .relative {
+            position: relative;
+
+            width: 150px;
+            height: 90px;
+            background-color: darkred;
+        }
+
+        .relative2 {
+            position: relative;
+            top: -40px;
+            left: 40px;
+            width: 150px;
+            height: 90px;
+            background-color: peru;
+        }
+
+        .relative3 {
+            position: relative;
+            top: 20px;
+            width: 570px;
+            height: 390px;
+            background-color: indianred;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 395px;
+            left: 270px;
+            width: 300px;
+            height: 195px;
+            background-color: indigo;
+        }
+
+        .fixed {
+            position: fixed;
+            left: 1440px;
+            top: 625px;
+            width: 100px;
+            height: 90px;
+            background-color: forestgreen;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="static">
+        <p>
+            <span style="color:white;"> It's a static div! </span>
+        </p>
+    </div>
+
+    <div class="relative">
+        <p>
+            <span style="color:white;"> It's a relative div! </span>
+        </p>
+    </div>
+
+    <div class="relative2">
+        <p>
+            <span style="color:white;">  It's a relative div! </span>
+        </p>
+    </div>
+
+    <div class="relative3">
+        <p>
+            <span style="color:white;">  It's a relative div! </span>
+        </p>
+    </div>
+
+    <div class="absolute">
+        <p>
+            <span style="color:white;">  It's an absolute div with relative parent! </span>
+        </p>
+    </div>
+
+    <div class="fixed">
+        <p>
+            <span style="color:white;">  It's a fixed div! </span>
+        </p>
+    </div>
+
+</body>
+</html>
